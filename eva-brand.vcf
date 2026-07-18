@@ -1,0 +1,9 @@
+BEGIN:VCARD
+VERSION:3.0
+N:BRAND;EVA;;;
+FN:EVA BRAND
+ORG:EVA BRAND;
+TEL;TYPE=CELL;TYPE=PREF;TYPE=VOICE:00970597180456
+ADR;TYPE=WORK;POSTAL;PARCEL:;;الشارع الرئيسي;ديراستيا;سلفيت;;فلسطين
+URL;WORK:https://majedsahban.github.io/eva-brand/
+END:VCARD
