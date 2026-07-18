@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EVA BRAND - إيفا براند</title>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        :root {
+            --bg-color: #fcfbfa;
+            --card-bg: #ffffff;
+            --primary-color: #1a1a1a;
+            --accent-color: #c5a880;
+            --text-color: #333333;
+            --text-muted: #777777;
+            --whatsapp-color: #25D366;
+            --facebook-color: #1877F2;
+            --instagram-gradient: linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
+            --tiktok-color: #000000;
+        }
+        * { box-sizing: border-box; margin: 0; padding: 0; font-family: 'Cairo', sans-serif; }
+        body { background-color: var(--bg-color); color: var(--text-color); display: flex; justify-content: center; align-items: center; min-height: 100vh; padding: 20px 15px; }
+        .container { width: 100%; max-width: 450px; background: var(--card-bg); border-radius: 24px; padding: 35px 25px; box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05); text-align: center; border: 1px solid rgba(197, 168, 128, 0.2); }
+        .brand-header { position: relative; margin-bottom: 25px; }
+        .profile-img { width: 110px; height: 110px; border-radius: 50%; object-fit: cover; border: 3px solid var(--accent-color); padding: 3px; background: #fff; box-shadow: 0 8px 20px rgba(0,0,0,0.08); }
+        .brand-name { font-size: 24px; font-weight: 700; color: var(--primary-color); margin-top: 15px; }
+        .brand-tagline { font-size: 14px; color: var(--accent-color); font-weight: 600; margin-top: 5px; margin-bottom: 15px; }
+        .brand-description { font-size: 13.5px; color: var(--text-muted); line-height: 1.6; margin-bottom: 25px; background: #fdfbf7; padding: 10px; border-radius: 12px; border: 1px dashed rgba(197, 168, 128, 0.3); }
+        .links-wrapper { display: flex; flex-direction: column; gap: 15px; margin-bottom: 30px; }
+        .btn-link { display: flex; align-items: center; justify-content: space-between; padding: 16px 20px; border-radius: 16px; text-decoration: none; color: #ffffff; font-weight: 600; font-size: 15px; transition: transform 0.2s ease, box-shadow 0.2s ease; }
+        .btn-link:hover { transform: translateY(-2px); }
+        .btn-link i { font-size: 20px; width: 30px; text-align: center; }
+        .btn-link span { flex-grow: 1; text-align: right; margin-right: 15px; }
+        .btn-whatsapp { background-color: var(--whatsapp-color); }
+        .btn-facebook { background-color: var(--facebook-color); }
+        .btn-instagram { background: var(--instagram-gradient); }
+        .btn-tiktok { background-color: var(--tiktok-color); }
+        .location-info { border-top: 1px solid #eeeeee; padding-top: 20px; font-size: 13px; color: var(--text-muted); display: flex; justify-content: center; align-items: center; gap: 8px; }
+        .location-info i { color: var(--accent-color); font-size: 16px; }
+        footer { margin-top: 25px; font-size: 11px; color: #bbb; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="brand-header">
+            <img src="https://ui-avatars.com/api/?name=EVA+BRAND&background=1a1a1a&color=c5a880&size=128" alt="EVA BRAND" class="profile-img">
+            <h1 class="brand-name">EVA BRAND</h1>
+            <p class="brand-tagline">أناقة، جودة، وهدية تترك انطباعًا لا يُنسى</p>
+            <div class="brand-description">
+                حقائب • عطور • ساعات • هدايا متنوعة • إكسسوارات
+            </div>
+        </div>
+        <div class="links-wrapper">
+            <a href="https://wa.me/970597180456" target="_blank" class="btn-link btn-whatsapp">
+                <i class="fab fa-whatsapp"></i><span>اطلب عبر واتساب</span><i class="fas fa-chevron-left"></i>
+            </a>
+            <a href="https://www.instagram.com/eva.brand.2026/" target="_blank" class="btn-link btn-instagram">
+                <i class="fab fa-instagram"></i><span>تابعنا على إنستغرام</span><i class="fas fa-chevron-left"></i>
+            </a>
+            <a href="https://www.facebook.com/profile.php?id=61550336304704" target="_blank" class="btn-link btn-facebook">
+                <i class="fab fa-facebook-f"></i><span>صفحتنا على فيسبوك</span><i class="fas fa-chevron-left"></i>
+            </a>
+            <a href="https://www.tiktok.com/@hiba.sahban?_r=1&_t=ZT-988fWHhFXWo" target="_blank" class="btn-link btn-tiktok">
+                <i class="fab fa-tiktok"></i><span>تيك توك</span><i class="fas fa-chevron-left"></i>
+            </a>
+        </div>
+        <div class="location-info">
+            <i class="fas fa-map-marker-alt"></i><span>ديراستيا - سلفيت - الشارع الرئيسي</span>
+        </div>
+        <footer>&copy; 2026 EVA BRAND. All Rights Reserved.</footer>
+    </div>
+</body>
+</html>
